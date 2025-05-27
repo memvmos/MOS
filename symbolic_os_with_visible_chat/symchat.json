@@ -1,0 +1,13 @@
+[
+  {
+    "id": "S001",
+    "user": "Hello Symbolic OS",
+    "agent": "Welcome. I am your recursive symbolic agent.",
+    "symbolic": {
+      "geometrical": "init",
+      "normative": "\ud83d\udc4b",
+      "arithmetic": "0"
+    },
+    "emotion": "welcome"
+  }
+]

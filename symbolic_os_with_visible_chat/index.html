@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Symbolic Causal Grid</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>
+    🔁 <a href="https://fr3raction.super.site" target="_blank" class="title-link">
+      Symbolic Causal Grid
+    </a>
+  </h1>
+  <div class="grid">
+    <div class="row">
+      <div class="tile">2</div>
+      <div class="tile">+</div>
+      <div class="tile">3</div>
+      <div class="tile">=</div>
+    </div>
+    <div class="arrow">↓</div>
+    <div class="tile result">5</div>
+    <div class="arrow">↓</div>
+    <div class="tile because" title="Because 2 and 3 joined to form 5">∵</div>
+    <div class="arrow">↓</div>
+    <div class="explanation">This is true because 2 and 3 joined to form 5.</div>
+  </div>
+
+  <button id="showCodeBtn">👁️ View Source Code</button>
+  <pre id="codeBlock" style="display:none;"></pre>
+
+  <a href="symbolic_os_bundle.zip" download class="download-btn">
+    📦 Download Symbolic OS
+  </a>
+
+  <script src="script.js"></script>
+
+  <div id="aiAgentToggle">💬</div>
+  <div id="aiAgentBox" style="display: none;">
+    <textarea id="aiInput" placeholder="Ask me something..."></textarea>
+    <button onclick="handleAI()">Send</button>
+    <div id="aiResponse"></div>
+  </div>
+  
+  <div id="chatThread" class="chat-thread"></div>
+
+  <div id="aiAgentToggle">💬</div>
+  <div id="aiAgentBox" style="display: none;">
+    <textarea id="aiInput" placeholder="Ask me something..."></textarea>
+    <button onclick="handleAI()">Send</button>
+    <div id="aiResponse"></div>
+  </div>
+  </body>
+    
+  
+</html>
